@@ -6,6 +6,9 @@ PRODUCT_PACKAGES += \
 DERPFEST_BUILD_TYPE := Official
 DERP_VERSION_APPEND_TIME_OF_DAY=true
 
+# ViPER4AndroidFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
