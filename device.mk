@@ -247,6 +247,10 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor \
     android.system.net.netd@1.1.vendor
 
+# Remove Packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Rootdir
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/bin/init.class_main.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.class_main.sh \
