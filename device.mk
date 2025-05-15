@@ -2,6 +2,10 @@
 PRODUCT_PACKAGES += \
     android.hardware.atrace@1.0-service
 
+# DerpFest Flags
+DERPFEST_BUILD_TYPE := Official
+DERP_VERSION_APPEND_TIME_OF_DAY=true
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
