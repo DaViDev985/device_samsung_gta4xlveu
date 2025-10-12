@@ -11,5 +11,5 @@ $(call inherit-product, device/samsung/gta4xlveu/device.mk)
 
 PRODUCT_DEVICE := gta4xlveu
 PRODUCT_NAME := lineage_gta4xlveu
-PRODUCT_BRAND := samsung
-PRODUCT_MANUFACTURER := samsung
+PRODUCT_BRAND := google
+PRODUCT_MANUFACTURER := google
