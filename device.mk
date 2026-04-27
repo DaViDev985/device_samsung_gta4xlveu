@@ -162,17 +162,9 @@ PRODUCT_PACKAGES += \
     libcurl.vendor
 
 # Media
-PRODUCT_PACKAGES += \
-    libOmxCore \
-    libc2dcolorconvert \
-    libOmxVdec \
-    libOmxVenc \
-    libstagefrighthw \
-    libstagefright_omx
-
-PRODUCT_PACKAGES += \
-    libavservices_minijail.vendor \
-    libavservices_minijail_vendor
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/media/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
+    $(LOCAL_PATH)/configs/media/media_codecs_performance_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_c2.xml
 
 # NeuralNetworks
 PRODUCT_PACKAGES += \
